@@ -1,0 +1,117 @@
+[
+    {
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D7027568C5A4D680343C9157C9AED465",
+                "hasExtraInfo": true,
+                "loaderId": "6E0D06D7C6E33B0020EB812E98DE45D9",
+                "requestId": "6872.3130",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "connectionId": 28,
+                    "connectionReused": true,
+                    "encodedDataLength": 60,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "access-control-allow-credentials": "true",
+                        "access-control-allow-methods": "POST,OPTIONS",
+                        "access-control-allow-origin": "https://www.lambdatest.com",
+                        "access-control-max-age": "86400",
+                        "cf-ray": "7b487ed11fa29aa2-NAG",
+                        "date": "Sat, 08 Apr 2023 06:36:20 GMT",
+                        "server": "cloudflare",
+                        "vary": "Origin",
+                        "x-content-type-options": "nosniff",
+                        "x-frame-options": "DENY"
+                    },
+                    "mimeType": "text/plain",
+                    "protocol": "h2",
+                    "remoteIPAddress": "[64:ff9b::6812:541]",
+                    "remotePort": 443,
+                    "responseTime": 1680935780119.749,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "Cloudflare Inc ECC CA-3",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "sni.cloudflaressl.com",
+                            "*.lambdatest.com",
+                            "lambdatest.com"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Xenon2023' log",
+                                "logId": "ADF7BEFA7CFF10C88B9D3D9C1E3E186AB467295DCFB10C24CA858634EBDC828A",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30440220512BE5054B8F57E5A55A14D4C30C8CC5012297AF5512DC2F693CACC90586565B0220088C580090905E79A4227131E6D05C1224942A0A137C2E4299D6CF8888AFA8D5",
+                                "status": "Verified",
+                                "timestamp": 1667525992739.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "DigiCert Nessie2023 Log",
+                                "logId": "B3737707E18450F86386D605A9DC11094A792DB1670C0B87DCF0030E7936A59A",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100EFA26C17004B1C3518F429AD728308908F9678528BEC91AE0C611CB6C743F38302201931AA03155550C17C8DAA96D3E73219E206775D93669675E132EAC01097D8BA",
+                                "status": "Verified",
+                                "timestamp": 1667525992753.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2023' log",
+                                "logId": "B73EFB24DF9C4DBA75F239C5BA58F46C5DFC42CF7A9F35C49E1D098125EDB499",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022075D83DE5ADC229ADEC8E68CBF55700D7C42E83DD66862EBDC77955F6FEAC7F07022100AD1B5213387466E45AF29C3E6E2F642DC4FDE92FC9EAD18208AF657B431A7E10",
+                                "status": "Verified",
+                                "timestamp": 1667525992696.0
+                            }
+                        ],
+                        "subjectName": "sni.cloudflaressl.com",
+                        "validFrom": 1667520000,
+                        "validTo": 1699142399
+                    },
+                    "securityState": "secure",
+                    "status": 204,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 49.498,
+                        "requestTime": 687.187474,
+                        "sendEnd": 0.631,
+                        "sendStart": 0.267,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://www.lambdatest.com/cdn-cgi/rum?"
+                },
+                "timestamp": 687.239779,
+                "type": "XHR"
+            }
+        },
+        "webview": "D7027568C5A4D680343C9157C9AED465"
+    }
+]

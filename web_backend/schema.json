@@ -1,0 +1,297 @@
+{
+  "mappings": {
+    "properties": {
+      "method": {
+        "type": "text"
+      },
+      "frameId": {
+        "type": "text"
+      },
+      "hasExtraInfo": {
+        "type": "boolean"
+      },
+      "loaderId": {
+        "type": "text"
+      },
+      "requestId": {
+        "type": "text"
+      },
+      "alternateProtocolUsage": {
+        "type": "text"
+      },
+      "connectionId": {
+        "type": "integer"
+      },
+      "connectionReused": {
+        "type": "boolean"
+      },
+      "encodedDataLength": {
+        "type": "integer"
+      },
+      "fromDiskCache": {
+        "type": "boolean"
+      },
+      "fromPrefetchCache": {
+        "type": "boolean"
+      },
+      "fromServiceWorker": {
+        "type": "boolean"
+      },
+      "cache-control": {
+        "type": "text"
+      },
+      "cf-cache-status": {
+        "type": "text"
+      },
+      "cf-ray": {
+        "type": "text"
+      },
+      "content-encoding": {
+        "type": "text"
+      },
+      "content-security-policy": {
+        "type": "text"
+      },
+      "content-type": {
+        "type": "text"
+      },
+      "date": {
+        "type": "text"
+      },
+      "expires": {
+        "type": "text"
+      },
+      "last-modified": {
+        "type": "text"
+      },
+      "permissions-policy": {
+        "type": "text"
+      },
+      "referrer-policy": {
+        "type": "text"
+      },
+      "server": {
+        "type": "text"
+      },
+      "strict-transport-security": {
+        "type": "text"
+      },
+      "vary": {
+        "type": "text"
+      },
+      "via": {
+        "type": "text"
+      },
+      "x-amz-cf-id": {
+        "type": "text"
+      },
+      "x-amz-cf-pop": {
+        "type": "text"
+      },
+      "x-cache": {
+        "type": "text"
+      },
+      "mimeType": {
+        "type": "text"
+      },
+      "protocol": {
+        "type": "text"
+      },
+      "remoteIPAddress": {
+        "type": "text"
+      },
+      "remotePort": {
+        "type": "integer"
+      },
+      "responseTime": {
+        "type": "float"
+      },
+      "certificateId": {
+        "type": "integer"
+      },
+      "certificateTransparencyCompliance": {
+        "type": "text"
+      },
+      "cipher": {
+        "type": "text"
+      },
+      "encryptedClientHello": {
+        "type": "boolean"
+      },
+      "issuer": {
+        "type": "text"
+      },
+      "keyExchange": {
+        "type": "text"
+      },
+      "keyExchangeGroup": {
+        "type": "text"
+      },
+      "serverSignatureAlgorithm": {
+        "type": "integer"
+      },
+      "hashAlgorithm": {
+        "type": "text"
+      },
+      "logDescription": {
+        "type": "text"
+      },
+      "logId": {
+        "type": "text"
+      },
+      "origin": {
+        "type": "text"
+      },
+      "signatureAlgorithm": {
+        "type": "text"
+      },
+      "signatureData": {
+        "type": "text"
+      },
+      "status": {
+        "type": "integer"
+      },
+      "timestamp": {
+        "type": "float"
+      },
+      "subjectName": {
+        "type": "text"
+      },
+      "validFrom": {
+        "type": "integer"
+      },
+      "validTo": {
+        "type": "integer"
+      },
+      "securityState": {
+        "type": "text"
+      },
+      "statusText": {
+        "type": "text"
+      },
+      "connectEnd": {
+        "type": "float"
+      },
+      "connectStart": {
+        "type": "float"
+      },
+      "dnsEnd": {
+        "type": "float"
+      },
+      "dnsStart": {
+        "type": "float"
+      },
+      "proxyEnd": {
+        "type": "integer"
+      },
+      "proxyStart": {
+        "type": "integer"
+      },
+      "pushEnd": {
+        "type": "integer"
+      },
+      "pushStart": {
+        "type": "integer"
+      },
+      "receiveHeadersEnd": {
+        "type": "float"
+      },
+      "requestTime": {
+        "type": "float"
+      },
+      "sendEnd": {
+        "type": "float"
+      },
+      "sendStart": {
+        "type": "float"
+      },
+      "sslEnd": {
+        "type": "float"
+      },
+      "sslStart": {
+        "type": "float"
+      },
+      "workerFetchStart": {
+        "type": "integer"
+      },
+      "workerReady": {
+        "type": "integer"
+      },
+      "workerRespondWithSettled": {
+        "type": "integer"
+      },
+      "workerStart": {
+        "type": "integer"
+      },
+      "url": {
+        "type": "text"
+      },
+      "type": {
+        "type": "text"
+      },
+      "webview": {
+        "type": "text"
+      },
+      "epoch": {
+        "type": "date"
+      },
+      "age": {
+        "type": "text"
+      },
+      "etag": {
+        "type": "text"
+      },
+      "accept-ranges": {
+        "type": "text"
+      },
+      "content-length": {
+        "type": "text"
+      },
+      "access-control-allow-origin": {
+        "type": "text"
+      },
+      "cross-origin-resource-policy": {
+        "type": "text"
+      },
+      "alt-svc": {
+        "type": "text"
+      },
+      "cross-origin-opener-policy-report-only": {
+        "type": "text"
+      },
+      "report-to": {
+        "type": "text"
+      },
+      "x-content-type-options": {
+        "type": "text"
+      },
+      "x-frame-options": {
+        "type": "text"
+      },
+      "x-xss-protection": {
+        "type": "text"
+      },
+      "access-control-allow-credentials": {
+        "type": "text"
+      },
+      "access-control-allow-headers": {
+        "type": "text"
+      },
+      "access-control-allow-methods": {
+        "type": "text"
+      },
+      "access-control-max-age": {
+        "type": "text"
+      },
+      "x-amz-server-side-encryption": {
+        "type": "text"
+      },
+      "x-amz-version-id": {
+        "type": "text"
+      },
+      "x-amz-replication-status": {
+        "type": "text"
+      }
+    }
+  }
+}
