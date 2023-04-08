@@ -4,9 +4,9 @@ This project is used to test the web application.It extracts and visualizes the 
 
 ## Usage
 
-To Setup the Web Testing Application first you need to setup web_backend The instructions are given in the web_backedn readme file
-Then setup the web_frontend the instructions are provided in the web_frontend readme file
-
+To Setup the Web Testing Application first you need to setup web_backend The instructions are given in the web_backedn readme file  
+Then setup the web_frontend the instructions are provided in the web_frontend readme file  
+  
 ## LambdaTest
 
 [![LambdaTest_Logo](https://www.lambdatest.com/resources/images/guideline/ltlambdabrand.svg)](https://www.lambdatest.com/)

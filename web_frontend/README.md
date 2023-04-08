@@ -73,22 +73,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 This project is used to create the frontend for the web_testing which will input the data to the api and receive the data and visualized the data in the form of charts
 
-#Prerequisites
-
-1.node js
-2.chrome browser(or) any browser
-
-# Project setup
-
-1.open the web_frontned folder and run the command <code>npm install</code> which will install all the required dependencies for the project
+# Prerequisites  
+  
+1.node js  
+  
+2.chrome browser(or) any browser  
+  
+# Project setup  
+  
+1.open the web_frontned folder and run the command <code>npm install</code> which will install all the required dependencies for the project  
 
 # Usage Instructions
-
-1. run the command <code>npm start</code> to start the frontend react appliication
-2. You will see an empty box on the left side and a select element a checkbox and a text box with submit button on the right isde.
-3. The empty box on the left side is the chart where chart lines and visualizations are rendered.
-4. Click on the select box then select the field for which you want to input the value.
-5. Then if you want to see what are the values you can input for the field check the checkbox.
-6. In the text box start typing and you will find a drop down menu which is scrollable you can select any of them or you can input you own value.
-7. Then to submit the input click on submit
-8. The graph will be rendered
+  
+1. run the command <code>npm start</code> to start the frontend react appliication  
+  
+2. You will see an empty box on the left side and a select element a checkbox and a text box with submit button on the right isde.  
+  
+3. The empty box on the left side is the chart where chart lines and visualizations are rendered.  
+  
+4. Click on the select box then select the field for which you want to input the value.  
+  
+5. Then if you want to see what are the values you can input for the field check the checkbox.  
+  
+6. In the text box start typing and you will find a drop down menu which is scrollable you can select any of them or you can input you own value.  
+  
+7. Then to submit the input click on submit  
+  
+8. The graph will be rendered  
+  
